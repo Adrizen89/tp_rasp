@@ -1,0 +1,21 @@
+.centered {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+.button1{
+    background-color: red;
+    color : white,
+
+}
+.button2{
+    background-color: blue;
+    color : white
+}
+.button3{
+    background-color: green;
+    color : white
+}

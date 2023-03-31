@@ -8,9 +8,11 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      devOptions: {
-      enabled: true
-    }
+      manifest: {
+        name: "PWA Bluetooth",
+        short_name: 'PWA',
+        description: 'PWA Bluetooth',
+    },
   })
   ],
 })
